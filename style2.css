@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  text-decoration: none;
+  list-style: none;
+}
+a :hover {
+  border-top: lightgrey solid 0.5px;
+  border-left: lightgrey solid 0.5px;
+  border-right: lightgrey solid 0.5px;
+  border-radius: 5px 5px 0 0;
+  text-decoration: none;
+}
+a {
+  color: white;
+}
+
+html {
+  height: 100% !important;
+  background-image: linear-gradient(to left, #001124, #070b65, #001124);
+}
+
+body {
+  color: white;
+  background-repeat: no-repeat;
+}
+header {
+  padding: 1rem;
+  padding-bottom: 0;
+  text-align: center;
+  background-color: rgb(29, 45, 63);
+  color: azure;
+}
+.btn {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  padding: 5px;
+}
+nav {
+  padding: 2rem 0 0.5rem;
+}
+nav li {
+  display: inline;
+  padding: 8px;
+  margin: 0;
+  border-top: rgba(211, 211, 211, 0) solid 0.5px;
+  border-left: rgba(211, 211, 211, 0) solid 0.5px;
+  border-right: rgba(211, 211, 211, 0) solid 0.5px;
+  border-radius: 5px 5px 0 0;
+}
+.active {
+  border-top: darkblue solid 1px;
+  border-left: darkblue solid 1px;
+  border-right: darkblue solid 1px;
+  border-radius: 5px 5px 0 0;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(6, 13, 86);
+}
+
+.pageTitle {
+  padding-top: 1rem;
+  text-align: center;
+  color: white;
+}
+.contentWapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.contentBox {
+  min-width: 400px;
+  max-width: 500px;
+  margin: 2rem;
+}
+.boxTitle {
+  border-radius: 10px 10px 0 0;
+  padding: 0.5rem;
+  background-color: rgb(29, 45, 63);
+  max-height: 2.5rem;
+}
+
+.boxTitle button {
+  padding: 2px;
+  position: relative;
+  left: 85%;
+  top: -20px;
+}
+.codeBox {
+  border: rgb(29, 45, 63) solid 1px;
+  border-radius: 0 0 10px 10px;
+  padding: 10px;
+  background-image: linear-gradient(to left, #001124, #070b65, #001124);
+}
+.tag {
+  color: aqua;
+}
+.itemComment {
+  padding-top: 2px;
+}
+
+/*--------------------- add new content page -------------*/
+
+.addNewWapper {
+  text-align: center;
+  padding: 10px;
+}
+
+.addNewWapper * {
+  padding: 5px;
+}
+
+.newContainer * {
+  margin: 2.5px;
+}
+
+.newExample * {
+  margin: 2.5px;
+}
